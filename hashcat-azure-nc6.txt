@@ -1,0 +1,109 @@
+hashcat (v4.1.0-7-gf6cfcbb) starting in benchmark mode...
+
+OpenCL Platform #1: NVIDIA Corporation
+======================================
+* Device #1: Tesla K80, 2860/11441 MB allocatable, 13MCU
+
+Benchmark relevant options:
+===========================
+* --optimized-kernel-enable
+
+Hashmode: 0 - MD5
+
+Speed.Dev.#1.....:  4478.2 MH/s (48.43ms) @ Accel:128 Loops:128 Thr:1024 Vec:2
+
+Hashmode: 100 - SHA1
+
+Speed.Dev.#1.....:  1734.6 MH/s (46.54ms) @ Accel:256 Loops:64 Thr:384 Vec:4
+
+Hashmode: 1400 - SHA-256
+
+Speed.Dev.#1.....:   781.3 MH/s (68.35ms) @ Accel:128 Loops:32 Thr:1024 Vec:1
+
+Hashmode: 1700 - SHA-512
+
+Speed.Dev.#1.....:   252.7 MH/s (66.21ms) @ Accel:64 Loops:32 Thr:640 Vec:1
+
+Hashmode: 2500 - WPA/WPA2 (Iterations: 4096)
+
+Speed.Dev.#1.....:    84966 H/s (77.05ms) @ Accel:64 Loops:32 Thr:1024 Vec:1
+
+Hashmode: 1000 - NTLM
+
+Speed.Dev.#1.....:  7471.3 MH/s (57.35ms) @ Accel:128 Loops:256 Thr:1024 Vec:4
+
+Hashmode: 3000 - LM
+
+Speed.Dev.#1.....:  4172.6 MH/s (51.32ms) @ Accel:64 Loops:1024 Thr:256 Vec:1
+
+Hashmode: 5500 - NetNTLMv1 / NetNTLMv1+ESS
+
+Speed.Dev.#1.....:  4176.4 MH/s (77.33ms) @ Accel:256 Loops:256 Thr:384 Vec:4
+
+Hashmode: 5600 - NetNTLMv2
+
+Speed.Dev.#1.....:   319.7 MH/s (62.86ms) @ Accel:64 Loops:32 Thr:768 Vec:2
+
+Hashmode: 1500 - descrypt, DES (Unix), Traditional DES
+
+Speed.Dev.#1.....:   171.1 MH/s (39.05ms) @ Accel:2 Loops:1024 Thr:256 Vec:1
+
+Hashmode: 500 - md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5) (Iterations: 1000)
+
+Speed.Dev.#1.....:  1258.9 kH/s (82.63ms) @ Accel:512 Loops:500 Thr:32 Vec:1
+
+Hashmode: 3200 - bcrypt $2*$, Blowfish (Unix) (Iterations: 32)
+
+Speed.Dev.#1.....:     2595 H/s (38.78ms) @ Accel:16 Loops:2 Thr:8 Vec:1
+
+Hashmode: 1800 - sha512crypt $6$, SHA512 (Unix) (Iterations: 5000)
+
+Speed.Dev.#1.....:    28488 H/s (92.33ms) @ Accel:256 Loops:128 Thr:32 Vec:1
+
+Hashmode: 7500 - Kerberos 5 AS-REQ Pre-Auth etype 23
+
+Speed.Dev.#1.....: 46851.7 kH/s (71.71ms) @ Accel:128 Loops:32 Thr:64 Vec:1
+
+Hashmode: 13100 - Kerberos 5 TGS-REP etype 23
+
+Speed.Dev.#1.....: 47092.2 kH/s (72.06ms) @ Accel:128 Loops:32 Thr:64 Vec:1
+
+Hashmode: 15300 - DPAPI masterkey file v1 (Iterations: 23999)
+
+Speed.Dev.#1.....:    14262 H/s (78.12ms) @ Accel:64 Loops:32 Thr:1024 Vec:1
+
+Hashmode: 15900 - DPAPI masterkey file v2 (Iterations: 7999)
+
+Speed.Dev.#1.....:     9834 H/s (42.90ms) @ Accel:128 Loops:64 Thr:32 Vec:1
+
+Hashmode: 7100 - macOS v10.8+ (PBKDF2-SHA512) (Iterations: 35000)
+
+Speed.Dev.#1.....:     2864 H/s (66.92ms) @ Accel:64 Loops:16 Thr:512 Vec:1
+
+Hashmode: 11600 - 7-Zip (Iterations: 524288)
+
+Speed.Dev.#1.....:     2521 H/s (60.37ms) @ Accel:128 Loops:64 Thr:768 Vec:1
+
+Hashmode: 12500 - RAR3-hp (Iterations: 262144)
+
+Speed.Dev.#1.....:    12462 H/s (49.64ms) @ Accel:2 Loops:16384 Thr:384 Vec:1
+
+Hashmode: 13000 - RAR5 (Iterations: 32767)
+
+Speed.Dev.#1.....:     8984 H/s (56.97ms) @ Accel:64 Loops:32 Thr:640 Vec:1
+
+Hashmode: 6211 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit (Iterations: 2000)
+
+Speed.Dev.#1.....:    66363 H/s (100.19ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
+
+Hashmode: 13400 - KeePass 1 (AES/Twofish) and KeePass 2 (AES) (Iterations: 6000)
+
+Speed.Dev.#1.....:    33310 H/s (68.33ms) @ Accel:256 Loops:128 Thr:32 Vec:1
+
+Hashmode: 6800 - LastPass + LastPass sniffed (Iterations: 500)
+
+Speed.Dev.#1.....:   573.9 kH/s (52.57ms) @ Accel:64 Loops:31 Thr:640 Vec:1
+
+Hashmode: 11300 - Bitcoin/Litecoin wallet.dat (Iterations: 199999)
+
+Speed.Dev.#1.....:     1178 H/s (56.59ms) @ Accel:64 Loops:16 Thr:1024 Vec:1
