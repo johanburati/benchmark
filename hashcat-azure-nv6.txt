@@ -4,10 +4,6 @@ OpenCL Platform #1: NVIDIA Corporation
 ======================================
 * Device #1: Tesla M60, 2032/8129 MB allocatable, 16MCU
 
-Benchmark relevant options:
-===========================
-* --optimized-kernel-enable
-
 Hashmode: 0 - MD5
 
 Speed.Dev.#1.....: 10615.9 MH/s (51.74ms) @ Accel:64 Loops:512 Thr:1024 Vec:1
